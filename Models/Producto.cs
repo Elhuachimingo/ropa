@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ropitahuachi.Models
 {
-    public class Mascota
+    public class Producto
     {
         public int Id { get; set; }
         public int Edad { get; set; }
