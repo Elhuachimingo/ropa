@@ -1,6 +1,6 @@
 using System;
 
-namespace Ropitahuachi.Models
+namespace ropa.Models
 {
     public class ErrorViewModel
     {
