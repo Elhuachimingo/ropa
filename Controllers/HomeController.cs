@@ -21,6 +21,14 @@ namespace ropa.Controllers
 
             return View();
         }
+        public IActionResult Inventario()
+        {
+            return View();
+        }
+        public IActionResult Ventas()
+        {
+            return View();
+        }
 
         public IActionResult Contact()
         {
