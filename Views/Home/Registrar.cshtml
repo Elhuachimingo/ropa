@@ -1,0 +1,40 @@
+@model Producto
+
+<h1>Formulario de registro de producto</h1>
+
+<form action="~/productos/registrar" method="post">
+
+<div class="form-group">
+    <label>Nombre:</label>
+    <input type="text" class="form-control" asp-for="Nombre" >
+    @Html.ValidationMessageFor(m => m.Nombre, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    <label>Cantidad:</label>
+    <input type="text" class="form-control" asp-for="Cantidad" >
+</div>
+<div class="form-group">
+    <label>Desc:</label>
+    <input type="text" class="form-control" asp-for="Desc" >
+</div>
+<div class="form-group">
+    <label>Color primario:</label>
+    <input type="text" class="form-control" asp-for="Color1" >
+</div>
+<div class="form-group">
+    <label>Color secundario:</label>
+    <input type="text" class="form-control" asp-for="Color2" >
+</div>
+<div class="form-group">
+    <label>Precio:</label>
+    <input type="text" class="form-control" asp-for="PrecioC" >
+    @Html.ValidationMessageFor(m => m.PrecioC, "", new { @class = "text-danger" })
+</div>
+<div class="form-group">
+    <label>Foto:</label>
+    <input type="text" class="form-control" asp-for="Foto" >
+</div>
+
+<button class="btn btn-primary">Enviar</button>
+
+</form>

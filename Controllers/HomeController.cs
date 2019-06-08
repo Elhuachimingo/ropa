@@ -29,7 +29,11 @@ namespace ropa.Controllers
         {
             return View();
         }
-
+        public IActionResult Registrar()
+        {
+            return View();
+        }
+        
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";

@@ -2686,6 +2686,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -2716,6 +2721,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Home\\Registrar.cshtml",
+      "TargetPath": "Views\\Home\\Registrar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -2733,6 +2743,11 @@
     {
       "FilePath": "Views\\Home\\Contact.cshtml",
       "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {

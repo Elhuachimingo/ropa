@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ropa.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 
 namespace ropa
@@ -34,7 +36,7 @@ namespace ropa
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddDbContext<TiendaContext>(options => options.UseMySql(Configuration.GetConnectionString("Default")));
-            //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<TiendaContext>();
+            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<TiendaContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

@@ -100,3 +100,6 @@ C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\ropa.Views.pd
 C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\ropa.dll
 C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\ropa.pdb
 C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\ropa.csproj.CopyComplete
+C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\Razor\Views\Home\Registrar.g.cshtml.cs
+C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Gianmarco\Documents\Proyects\Ropa\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
