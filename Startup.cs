@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ropa.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace ropa
 {
@@ -30,7 +33,8 @@ namespace ropa
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            services.AddDbContext<TiendaContext>(options => options.UseMySql(Configuration.GetConnectionString("Default")));
+            //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<TiendaContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -51,6 +55,8 @@ namespace ropa
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseAuthentication();
+
 
             app.UseMvc(routes =>
             {
